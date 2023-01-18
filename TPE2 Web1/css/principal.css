@@ -1,0 +1,322 @@
+body
+{
+    background-image: url(../imagenes/fondo.jpg);
+    font-size: 20px;
+    min-width: 250px;
+}
+.titulo1 
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    height: 60px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.contenedortitle
+{
+    text-align: center;
+}
+h2
+{
+    text-transform: capitalize;
+    color: blueviolet;
+}
+h3
+{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.navegador
+{
+    text-align: center;
+}
+.nav-enlace
+{
+    color:white;
+    display: inline-block;
+    background-color: gray;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.nav-enlace:hover 
+{
+    background-color:rgb(85, 83, 83);
+}
+.valo, .lol, .mario
+{
+    width: 350px;
+    height: 200px;
+    border: 5px;
+    border-style: dashed;
+    border-color: black;
+}
+.mario
+{
+    border-color: rgb(105, 3, 105);
+}
+.valo
+{
+    border-color: red;
+}
+
+.contenedorimagenes
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.p_lol
+{
+    background-color: white;
+    text-transform: capitalize;
+    height: 20px;
+    margin: 0px;
+    text-align:center;
+}
+
+.cont.lol.btn
+{
+    background-color: transparent;
+    text-transform: capitalize;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+}
+.boton-lol
+{
+    background-color: rgb(177, 43, 255);
+    font-size: large;
+    text-transform: capitalize;
+}
+.cont.mario.btn
+{
+    background-color: transparent;
+    text-transform: capitalize;
+    height: 20px;
+    margin: 0px;
+    width: 350px;
+    text-align: center;
+}
+.boton-mario
+{
+    background-color: rgb(53, 187, 78);
+    font-size: large;
+    text-transform: capitalize;  
+}
+.cont.valo.boton
+{
+    background-color: transparent;
+    text-transform: capitalize;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+}
+.boton-valo
+{
+    background-color: rgb(136, 123, 123);
+    font-size: large;
+    text-transform: capitalize;  
+}
+.texto_origen 
+{
+    text-transform: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+img:active 
+{
+    color: yellow;
+}
+.parrafo1
+{
+    background-color: rgb(231, 158, 255);
+}
+.lista1
+{
+    width: 47.5%;
+    background-color:lightsteelblue;
+}
+.sport
+{
+    height: 30%;
+    width: 50%;
+    margin-top: 0px;
+}
+.link-img
+{
+    color: #323fff;
+    background-color: lightsteelblue;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+.p-torneos
+{
+    background-color:lightsteelblue;
+}
+
+.div
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.nombre
+{
+    background-color:rgb(221, 252, 175);
+    font-size:20px;
+    text-align: center;
+}
+.email
+{
+    background-color:rgb(221, 252, 175);
+    font-size:20px;
+    text-align: center;
+}
+.password
+{
+    background-color:rgb(221, 252, 175);
+    font-size:20px;
+    text-align: center;
+ }
+.boton
+{
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.p1
+{
+    text-align: center;
+    text-transform:initial ;
+    font-size: x-large;
+}
+.cont-captcha
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.form
+{
+    text-align: center;
+    width: 300px;
+    background-color: rgb(157, 82, 228);
+    font-size: 20px;
+    border: 4px;
+    border-style: dashed;
+    border-color: white;
+}
+
+
+.titulo-captcha
+{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn
+{
+    height: 35px;
+}
+.titulo-datos
+{
+    text-align: left;
+}
+.titulo-preg
+{
+    color:black;
+}
+
+@media (max-width: 1100px) {
+    .contenedorimagenes{
+        flex-wrap: wrap;
+    }
+    .titulo1
+    {
+        font-size: 20px;
+    }
+    .texto_origen
+    {
+        font-size:15px;
+    }
+
+    body
+    {
+        font-size: 20px;
+    }
+    
+    .sport
+    {
+        width: 70%;
+        height:80% ;
+    }
+    .parrafo1
+    {
+      
+        height: 150%;
+    }
+    .p-torneos
+    {
+        
+        height:60% ;
+    }
+    .lista1
+    {
+        width:90%;
+        font-size: 16px;
+    }
+    .link-img
+    {
+        width: 60%;
+    }
+    .dentro_input
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.form-tabla 
+{
+    flex-wrap: wrap;
+    width: 50%;
+   
+    margin-top: 0px;
+    background-color: rgb(134, 112, 255);
+    padding: 1em;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+
+.dentro_input
+{
+    text-align: center;
+    margin-left: 6px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+#btn-agregar1
+{
+    margin-left: 6px;
+    border-radius: 10px;
+    border: 3px solid black;
+   
+}
+.titulo_form
+{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
